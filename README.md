@@ -15,7 +15,7 @@ You can explore and test all API endpoints directly from your browser:
 
 ## 🔑 Authorization (IMPORTANT)
 
-Some endpoints (like creating a game, logging out, or changing password) are **protected**.
+Some endpoints (like creating a game, logging out, or changing password etc.) are **protected**.
 
 To use them on Swagger:
 
@@ -30,7 +30,7 @@ To use them on Swagger:
 3. Click on the **Authorize** 🔒 button (top right in Swagger UI).
    - Enter the token in this the box that will be visible:  
 
-Once authorized, the locked 🔒 endpoints become unlocked and you can try them out.
+Once authorized, you will get access to all the authorize paths
 
 ---
 
@@ -68,3 +68,5 @@ Once authorized, the locked 🔒 endpoints become unlocked and you can try them 
    ```bash
    git clone https://github.com/Kanav31/Timepass-game-repo.git
    cd Timepass-game-repo/backend
+   npm run dev
+   and fill all env variables by taking refernce from env.example file.
