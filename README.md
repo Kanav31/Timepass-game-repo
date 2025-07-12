@@ -9,7 +9,7 @@ It includes user authentication (JWT) and CRUD operations for games, all documen
 
 You can explore and test all API endpoints directly from your browser:
 
-👉 [**Live Swagger Docs**](https://timepass-game-repo.onrender.com/api/v1/api-docs/)
+👉 [**Live Game**](https://timepass-game-repo.onrender.com/api/v1/api-docs/)
 
 ---
 
@@ -28,10 +28,7 @@ To use them on Swagger:
    - You’ll get an `accessToken` in the response.
 
 3. Click on the **Authorize** 🔒 button (top right in Swagger UI).
-   - Enter the token in this format:  
-     ```
-     Bearer <your_token>
-     ```
+   - Enter the token in this the box that will be visible:  
 
 Once authorized, the locked 🔒 endpoints become unlocked and you can try them out.
 
